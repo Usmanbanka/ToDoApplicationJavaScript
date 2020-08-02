@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .delbtnclass{
+            background-color: lightblue;
+        }
+        .editbtnclass{
+            background-color: lightgoldenrodyellow;
+        }
+        ul{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>To Do Application</h1>
+    <div>
+        <input placeholder="Enter Task" type="text" id="todo-item">
+        <button onclick="addTodo()">Add Item</button>
+        <button onclick="deleteAll()">Delete All</button>
+    </div>
+    <div>
+        <ul id="list">
+
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
